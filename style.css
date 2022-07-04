@@ -61,3 +61,262 @@ navbar{
     padding: 5px 7px 5px 7px;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 800px){
+    .navbar ul{
+        display: none;
+    }
+    .nav{
+        height: fit-content
+    }
+}
+
+@media (min-width:800px){
+    .menu-btn{
+        margin-top: 800px;
+    }
+}
+.home{ background-color: beige;
+    margin: 50px 20px;
+    display: flex;
+}
+img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.img1{
+    flex: 1;
+}
+
+.home-content{
+    flex: 1;
+}
+
+
+.img1{
+    flex: 1;
+}
+.home-content{
+    flex: 1;
+    margin: 20px;
+}
+
+.home-content h3{
+   /* background-color: red;*/
+font-size: 30px;
+font-family: sans-serif;
+margin-bottom: 10px;
+}
+
+.home-content p{
+    font-family: sans-serif
+    margin-bottom: 10px;
+}
+
+.home-content button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: green;
+}
+.about ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.about ul li{
+    list-style: none;
+    color: #2549d3;
+}
+.about ul li button{
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    background-color: #2549d3;
+}
+.product.work{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product h2{
+    margin: 10px 40px;
+}
+
+.procedures{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.procedures .location{
+    margin: 15px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 80px 80px;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.procedures .location img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.services{
+    margin: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.services .img2
+{
+    max-width: 50%;
+    display: flex;
+    flex: 1;
+
+}
+
+.services .content{
+    flex: 1;
+    display: grid;
+    align-content: center;
+    max-width: 50%;
+    margin: 20px;
+    padding: 10px;
+    
+}
+ 
+.services .content h2{
+    color: #2549d3;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.services .content p{
+    margin-left: 10px;
+}
+ 
+.services .content ul{
+    margin: 10px 10px;
+}
+
+.properties{
+    margin: 40px;
+    display: flex;
+}
+
+.about-properties{
+    text-align: center;
+    width: 50px;
+    height: 80px;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+
+.about-properties h3{
+    font-family: sans-serif;
+    color: #2549d3;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-properties p{
+    padding: 5px;
+}
+
+.properties .images{display: flex;
+    justify-content: space-between;
+
+}
+.properties .images .cost{
+    margin-top: 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients{
+    margin: 30px;
+    width: fit-content;
+}
+
+.clients .about-client{
+    text-align: center;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+.clients .about-client h2{
+    margin-bottom: 5px;
+
+}
+
+.clients .members{
+    margin: 5px;
+    display: flex;
+}
+.clients .members .member1{
+    margin: 10px;
+    flex: 1;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 5px;
+}
+.clients .members .member1  h5{
+    padding: 5px 0;
+}
+.view .more {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+background-color: #2549d3;
+}
+
+.view .more button {
+    justify-content: flex-end;
+    width: 100px;
+    height: 40px;
+    background-color: #2549d3;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #2549d3;
+    display: flex;
+    color: aliceblue;
+}
+
+.home pg{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.footer .more{flex: 1;
+    margin: 20px;
+    padding: 20px 0;
+
+}
+.footer .more h2{
+    font-family: sans-serif;
+}
+.footer .navigation{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li a{
+    color: #fafafa;
+}
+.footer ul li {
+    margin-bottom: 20px;
+}
+
+
+
+
+
