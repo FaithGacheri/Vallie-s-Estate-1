@@ -51,3 +51,13 @@ navbar{
     padding: 10px 15px;
     display: flex;
 }
+
+.btn-div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+#Get started{
+    padding: 5px 7px 5px 7px;
+    border-radius: 5px;
+}
