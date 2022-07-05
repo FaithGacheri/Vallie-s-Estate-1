@@ -99,12 +99,12 @@ img{
 .img1{
     flex: 1;
 }
-.home-content{
+.homecontent{
     flex: 1;
     margin: 20px;
 }
 
-.home-content h3{
+.homecontent h3{
    /* background-color: red;*/
 font-size: 30px;
 font-family: sans-serif;
@@ -116,10 +116,14 @@ margin-bottom: 10px;
     margin-bottom: 10px;
 }
 
-.home-content button{
+.homecontent button{
     border-radius: 5px;
     padding: 10px;
     background-color: green;
+}
+.homecontent p{
+    font-family: sans-serif;
+    margin-bottom: 20px;
 }
 .about ul{
     display: flex;
