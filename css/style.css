@@ -284,14 +284,14 @@ h2{
 .clients .members .member1  h5{
     padding: 5px 0;
 }
-.view .more {
+.View .more {
     display: flex;
     justify-content: flex-end;
     margin: 10px;
 background-color: #2549d3;
 }
 
-.view .more button {
+.View .more button {
     justify-content: flex-end;
     width: 100px;
     height: 40px;
