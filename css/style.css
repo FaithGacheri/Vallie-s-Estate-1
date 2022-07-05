@@ -76,20 +76,21 @@ navbar{
         margin-top: 800px;
     }
 }
-.home{ background-color: beige;
+.home{
+     /* background-color: blue; */
     margin: 50px 20px;
     display: flex;
 }
 img{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.img1{
+.home .img1{
     flex: 1;
 }
 
-.home-content{
+.homecontent{
     flex: 1;
     
 }
@@ -111,7 +112,7 @@ font-family: sans-serif;
 margin-bottom: 10px;
 }
 
-.home-content p{
+.homecontent p{
     font-family: sans-serif
     margin-bottom: 10px;
 }
@@ -141,13 +142,19 @@ margin-bottom: 10px;
     box-shadow: 2px 2px 2px;
     background-color: #2549d3;
 }
-.product.work{
+
+.products{
+    display: flex;
+    margin-top: 20px;
+}
+.products .work{
     text-align: center;
     margin-bottom: 20px;
 }
 
-.product h2{
+h2{
     margin: 10px 40px;
+    text-align: center;
 }
 
 .procedures{
@@ -163,6 +170,8 @@ margin-bottom: 10px;
     grid-template-rows: 80px 80px;
     grid-gap: 30px;
     align-items: center;
+    border-radius: 5px;
+    background-color: beige;
 }
 
 .procedures .location img{
@@ -179,7 +188,7 @@ margin-bottom: 10px;
     padding: 10px;
 }
 
-.services .img2
+.service .img2
 {
     max-width: 50%;
     display: flex;
@@ -187,7 +196,7 @@ margin-bottom: 10px;
 
 }
 
-.services .content{
+.service .content{
     flex: 1;
     display: grid;
     align-content: center;
@@ -197,17 +206,17 @@ margin-bottom: 10px;
     
 }
  
-.services .content h2{
+.service .innercontent h2{
     color: #2549d3;
     font-family: sans-serif;
     margin-left: 10px;
 }
 
-.services .content p{
+.service .innercontent p{
     margin-left: 10px;
 }
  
-.services .content ul{
+.service .innercontent ul{
     margin: 10px 10px;
 }
 
@@ -292,10 +301,10 @@ background-color: #2549d3;
 .footer {
     background-color: #2549d3;
     display: flex;
-    color: aliceblue;
+    color: #fafafa;
 }
 
-.home pg{
+.home.page{
     font-size: 30px;
     font-weight: bold;
     font-family: sans-serif;
