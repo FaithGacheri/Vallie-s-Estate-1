@@ -233,6 +233,7 @@ h2{
 .properties{
     margin: 40px;
     display: flex;
+    justify-content: space-between;
 }
 
 .aboutproperties{
@@ -241,6 +242,7 @@ h2{
     height: 80px;
     margin-left: 20%;
     margin-bottom: 20%;
+    /* justify-content: space-between; */
 }
 
 .aboutproperties h3{
