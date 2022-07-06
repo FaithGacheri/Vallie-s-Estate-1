@@ -45,12 +45,15 @@ border-bottom: 2px solid greenyellow;
 .navbar ul li {
  list-style: none;
  padding: 8px 10px;
+
 }
 .navbar ul li a{
     font-size: 20px;
     padding: 10px 15px;
-    display: flex;
+   /* display: inline; */
+    
 }
+
 
 .btn-div{
     flex: 1;
@@ -60,6 +63,7 @@ border-bottom: 2px solid greenyellow;
 #Get started{
     padding: 5px 7px 5px 7px;
     border-radius: 5px;
+    background-color: #2549d3;
 }
 
 @media only screen and (max-width: 800px){
@@ -80,6 +84,7 @@ border-bottom: 2px solid greenyellow;
      /* background-color: blue; */
     margin: 50px 20px;
     display: flex;
+    /* align-items: center; */
 }
 img{
     max-width: 100%;
@@ -92,6 +97,9 @@ img{
 
 .homecontent{
     flex: 1;
+    display: flex;
+display: block;
+
     
 }
 
@@ -106,7 +114,7 @@ img{
 }
 
 .homecontent h3{
-   /* background-color: red;*/
+   background-color:blue;
 font-size: 30px;
 font-family: sans-serif;
 margin-bottom: 10px;
@@ -180,15 +188,14 @@ h2{
 }
 
 
-.services{
-    margin: 20px;
-    margin-left: 50px;
+.service{
+    margin 20px;
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    justify-content:space-between;
+    paddin
 }
 
-.service .img2
+.service .img
 {
     max-width: 50%;
     display: flex;
@@ -218,6 +225,9 @@ h2{
  
 .service .innercontent ul{
     margin: 10px 10px;
+}
+.service ul li{
+    display: flex;
 }
 
 .properties{
@@ -257,6 +267,7 @@ h2{
 .clients{
     margin: 30px;
     width: fit-content;
+    justify-content: space-between;
 }
 
 .clients .about-client{
@@ -284,14 +295,14 @@ h2{
 .clients .members .member1  h5{
     padding: 5px 0;
 }
-.View .more {
+.view-more {
     display: flex;
     justify-content: flex-end;
     margin: 10px;
-background-color: #2549d3;
+/* background-color: #2549d3; */
 }
 
-.View .more button {
+.view-more button {
     justify-content: flex-end;
     width: 100px;
     height: 40px;
