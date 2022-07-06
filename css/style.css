@@ -238,10 +238,10 @@ h2{
 
 .aboutproperties{
     text-align: center;
-    width: 50px;
+    /* width: 50px; */
     height: 80px;
     margin-left: 20px;
-    margin-bottom: 20%;
+    margin-bottom: 20px;
     /* justify-content: space-between; */
 }
 
@@ -270,15 +270,17 @@ h2{
     margin: 30px;
     width: fit-content;
     justify-content: space-between;
+    display: flex;
 }
 
-.clients .about-client{
+.clients .aboutclient{
     text-align: center;
     padding: 8px;
     font-family: sans-serif;
+    /* display: flex; */
 }
 
-.clients .about-client h2{
+.clients .aboutclient h2{
     margin-bottom: 5px;
 
 }
